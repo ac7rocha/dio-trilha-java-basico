@@ -1,8 +1,17 @@
 package operadores;
 public class Operadores {
     public static void main(String[] args) {
-        String nomeCompleto = "Linguagem" + " Java";
-        System.out.println(nomeCompleto);
-    }
+       boolean condicao1 = true;
+       boolean condicao2 = true;
+       
+        if (condicao1 && (7 > 4)) {
+            System.out.println("As duas condições são verdadeiras");
+        } else if (condicao1 || condicao2) {
+            System.out.println("Uma das condições é verdadeira");
+                }  
+        
+       
+        
     
+}
 }
